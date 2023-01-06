@@ -1,0 +1,67 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  /* background-image: url("KidDrawing-MarvelUniverse.jpg"); */
+  
+}
+.heading{
+  text-align: center;
+  font-size: 2rem;
+  color:var(--black);
+}
+
+.heading span{
+  background: var(--pink);
+  color:#fff;
+  display: inline-block;
+  padding:.5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+header {
+  height:80vh;
+  min-height:400px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 73, 209, 0.603),
+    rgba(51,51,153,0.6)
+  );
+  opacity: 0.8;
+  background-image:url('https://img.freepik.com/free-vector/cinematograph-concept-background-design-with-popcorn-3d-glasses_260559-142.jpg?w=2000');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 80%,
+    50% 100%,
+    0 80%
+  );
+}
+.container{
+  width: 100%;
+  margin: 1em auto;
+  /* background-color: rgb(219, 15, 134); */
+  border: 1em;
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+  
+}
+
+h2{
+  background-color: antiquewhite;
+}
